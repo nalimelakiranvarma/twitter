@@ -75,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:onClick="mainClick5"
-                app:srcCompat="@drawable/home" />
+                app:srcCompat="@drawable/hraj" />
 
             <TextView
                 android:id="@+id/textView"
@@ -196,7 +196,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="#E6EBF1"
+                android:padding="10dp">
 
                 <Button
                     android:id="@+id/button2"
@@ -204,21 +206,23 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boderbutton"
-
-                    android:text="Button" />
+                    android:textColor="#fff"
+                    android:text="All" />
 
                 <Button
                     android:id="@+id/button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="#1DA1F3"
                     android:background="@drawable/boader"
-                    android:text="Button" />
+                    android:text="Metions" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -245,6 +249,7 @@
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact D.Ravi Kumar is on Twitter" />
                 </LinearLayout>
             </LinearLayout>
@@ -257,7 +262,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <ImageView
                     android:id="@+id/imageView15"
@@ -282,6 +288,7 @@
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact Srinivas is on Twitter" />
                 </LinearLayout>
 
@@ -294,7 +301,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <ImageView
                     android:id="@+id/imageView17"
@@ -318,6 +326,7 @@
                         android:id="@+id/textView35"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact amarender is on Twitter" />
 
                 </LinearLayout>
@@ -331,7 +340,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <ImageView
                     android:id="@+id/imageView19"
@@ -349,13 +359,14 @@
                         android:id="@+id/imageView20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/narish"
-                        android:layout_marginRight="250dp"/>
+                        app:srcCompat="@drawable/threeimages"
+                        android:layout_marginRight="170dp"/>
 
                     <TextView
                         android:id="@+id/textView21"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact marri is on Twitter" />
                 </LinearLayout>
 
@@ -368,7 +379,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <ImageView
                     android:id="@+id/imageView22"
@@ -393,6 +405,7 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact chandrashekar is on Twitter" />
                 </LinearLayout>
 
@@ -430,6 +443,7 @@
                         android:id="@+id/textView27"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact padma Kumar is on Twitter" />
                 </LinearLayout>
 
@@ -467,6 +481,7 @@
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact shyam is on Twitter" />
                 </LinearLayout>
 
@@ -504,6 +519,7 @@
                         android:id="@+id/textView33"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000"
                         android:text="Your contact D.Ravi Kumar is on Twitter" />
                 </LinearLayout>
 

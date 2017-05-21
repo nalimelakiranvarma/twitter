@@ -97,7 +97,7 @@
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="match_parent"
-                    android:layout_height="461dp"
+                    android:layout_height="wrap_content"
                     android:background="#E6EBF1"
                     app:srcCompat="@drawable/pic" />
             </LinearLayout>
@@ -187,7 +187,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:onClick="mainClick3"
-                app:srcCompat="@drawable/messagge" />
+                app:srcCompat="@drawable/message" />
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
@@ -204,7 +204,7 @@
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                app:srcCompat="@drawable/person"
+                app:srcCompat="@drawable/men"
                 android:onClick="mainClick4"/>
             <TextView
                 android:id="@+id/textView5"

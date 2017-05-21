@@ -13,7 +13,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
+        android:layout_marginBottom="10dp"
         android:id="@+id/linearLayout2"
         tools:layout_editor_absoluteY="0dp">
 
@@ -21,7 +21,7 @@
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="0.89"
+            android:layout_weight="0.36"
             android:onClick="mainClick"
             app:srcCompat="@drawable/cancel" />
 
@@ -35,20 +35,23 @@
             android:textStyle="bold"
             android:textColor="#000"
             android:gravity="center"
+            android:textSize="20dp"
             android:text="Reset Password" />
 
     </LinearLayout>
+
     <View
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:background="@android:color/darker_gray"
         android:id="@+id/view6"
+        android:layout_marginTop="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         app:layout_constraintBottom_toTopOf="@+id/li"
         app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintHorizontal_bias="0.0"></View>
+        app:layout_constraintHorizontal_bias="0.0" />
     <LinearLayout
         android:layout_width="417dp"
         android:layout_height="433dp"
@@ -68,6 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.09"
+            android:textSize="20sp"
             android:text="Find Your Twitter Acoount" />
 
         <TextView
@@ -75,22 +79,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.09"
+            android:textSize="16sp"
+            android:textStyle="bold"
             android:text="Enter your email, phone number or username" />
 
         <EditText
             android:id="@+id/editText5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.09"
+            android:layout_width="351dp"
+            android:layout_height="46dp"
             android:ems="10"
+            android:background="@drawable/editboader"
             android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="369dp"
+            android:layout_width="111dp"
             android:layout_height="wrap_content"
-            android:text="Search"
-            android:layout_weight="0.14" />
+            android:layout_weight="0.04"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:background="#3498db"
+            android:text="Search" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
