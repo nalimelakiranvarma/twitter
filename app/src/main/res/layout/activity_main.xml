@@ -154,7 +154,7 @@
         <Button
             android:id="@+id/button5"
             android:layout_width="54dp"
-            android:layout_height="44dp"
+            android:layout_height="41dp"
             android:background="@drawable/me"
             android:onClick="mainClick" />
     </LinearLayout>
