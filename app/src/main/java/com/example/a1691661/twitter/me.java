@@ -13,7 +13,7 @@ public class me extends AppCompatActivity {
         setContentView(R.layout.activity_me);
     }
     void mainClick(View view){
-        Intent intent = new Intent(this, Media.class);
+        Intent intent = new Intent(this, twitter.class);
         startActivity(intent);
     }
     void mainClick1(View view){
@@ -25,7 +25,15 @@ public class me extends AppCompatActivity {
         startActivity(intent);
     }
     void mainClick3(View view){
-        Intent intent = new Intent(this, twitter.class);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    void mainClick4(View view){
+        Intent intent = new Intent(this, me.class);
+        startActivity(intent);
+    }
+    void mainClick5(View view){
+        Intent intent = new Intent(this, Media.class);
         startActivity(intent);
     }
 }

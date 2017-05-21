@@ -12,6 +12,10 @@ public class Media extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_media);
     }
+    void mainClick(View view){
+        Intent intent = new Intent(this, twitter.class);
+        startActivity(intent);
+    }
     void mainClick1(View view){
         Intent intent = new Intent(this, Main4Activity.class);
         startActivity(intent);
@@ -21,7 +25,19 @@ public class Media extends AppCompatActivity {
         startActivity(intent);
     }
     void mainClick3(View view){
-        Intent intent = new Intent(this, twitter.class);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    void mainClick4(View view){
+        Intent intent = new Intent(this, me.class);
+        startActivity(intent);
+    }
+    void mainClick5(View view){
+        Intent intent = new Intent(this, Media.class);
+        startActivity(intent);
+    }
+    void mainClick6(View view){
+        Intent intent = new Intent(this, me.class);
         startActivity(intent);
     }
 }

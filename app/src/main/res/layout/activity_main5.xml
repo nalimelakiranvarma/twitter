@@ -96,7 +96,7 @@
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                app:srcCompat="@drawable/searchicon"
+                app:srcCompat="@drawable/sear"
                 android:onClick="mainClick"/>
 
             <TextView
@@ -121,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:onClick="mainClick1"
-                app:srcCompat="@drawable/alaramicon" />
+                app:srcCompat="@drawable/nottt" />
 
             <TextView
                 android:id="@+id/textView3"
