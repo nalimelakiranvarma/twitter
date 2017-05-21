@@ -30,6 +30,7 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:onClick="mainClick4"
                 app:srcCompat="@drawable/home" />
 
             <TextView

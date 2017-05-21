@@ -26,11 +26,15 @@ public class Main5Activity extends AppCompatActivity {
         startActivity(intent);
     }
     void mainClick3(View view){
-        Intent intent = new Intent(this, loginpage.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
     void mainClick4(View view){
         Intent intent = new Intent(this, me.class);
+        startActivity(intent);
+    }
+    void mainClick5(View view){
+        Intent intent = new Intent(this, twitter.class);
         startActivity(intent);
     }
 }

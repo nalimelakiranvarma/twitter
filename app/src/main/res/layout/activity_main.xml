@@ -129,6 +129,7 @@
             android:id="@+id/button"
             android:layout_width="61dp"
             android:layout_height="wrap_content"
+            android:onClick="mainClick3"
             android:background="@drawable/home" />
 
         <Button

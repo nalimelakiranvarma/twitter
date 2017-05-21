@@ -117,6 +117,7 @@
             android:id="@+id/button17"
             android:layout_width="74dp"
             android:layout_height="51dp"
+            android:onClick="mainClick3"
             android:background="@drawable/home" />
 
         <Button

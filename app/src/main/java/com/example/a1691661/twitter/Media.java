@@ -20,4 +20,8 @@ public class Media extends AppCompatActivity {
         Intent intent = new Intent(this, Main5Activity.class);
         startActivity(intent);
     }
+    void mainClick3(View view){
+        Intent intent = new Intent(this, twitter.class);
+        startActivity(intent);
+    }
 }
