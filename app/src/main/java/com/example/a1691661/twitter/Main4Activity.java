@@ -22,4 +22,12 @@ public class Main4Activity extends AppCompatActivity {
         Intent intent = new Intent(this, Main5Activity.class);
         startActivity(intent);
     }
+    void mainClick2(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    void mainClick3(View view){
+        Intent intent = new Intent(this, me.class);
+        startActivity(intent);
+    }
 }

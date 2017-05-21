@@ -26,4 +26,12 @@ public class Main5Activity extends AppCompatActivity {
         Intent intent = new Intent(this, Main6Activity.class);
         startActivity(intent);
     }
+    void mainClick3(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    void mainClick4(View view){
+        Intent intent = new Intent(this, me.class);
+        startActivity(intent);
+    }
 }

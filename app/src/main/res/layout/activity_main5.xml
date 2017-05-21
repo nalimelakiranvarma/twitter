@@ -140,6 +140,7 @@
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:onClick="mainClick3"
                 app:srcCompat="@drawable/message" />
 
             <TextView
@@ -160,7 +161,8 @@
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                app:srcCompat="@drawable/person" />
+                app:srcCompat="@drawable/person"
+                android:onClick="mainClick4"/>
 
             <TextView
                 android:id="@+id/textView5"
