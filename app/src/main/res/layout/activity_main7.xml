@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context="com.example.a1691661.twitter.loginpage">
 
     <LinearLayout
         android:layout_width="378dp"
         android:layout_height="42dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="3dp"
         android:id="@+id/linearLayout2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -21,43 +21,92 @@
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="0.89"
             app:srcCompat="@drawable/cancel" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.35"
             app:srcCompat="@drawable/twi" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@drawable/dot" />
 
     </LinearLayout>
 
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintBottom_toBottomOf="@+id/lay"
+        app:layout_constraintVertical_bias="0.616"
+        app:layout_constraintHorizontal_bias="0.0"></View>
     <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/lay"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="#1DA1F3"
+            android:text="Forgot password?"
+            android:onClick="mainClick1"
+            android:layout_marginRight="100dp"/>
+        <Button
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/loginboader"
+            android:onClick="mainClick"
+            android:text="Login"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="403dp"
         android:layout_height="410dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        android:id="@+id/linearLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.09"
-            android:text="Login in to Twitter" />
+            android:layout_marginTop="20dp"
+            android:text="Login in to Twitter"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editText4"
@@ -77,43 +126,6 @@
             android:inputType="textPersonName"
             android:text="Password" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="36dp"
-        android:layout_marginLeft="8dp"
-        android:orientation="horizontal"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-
-        android:layout_marginStart="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        android:layout_marginRight="8dp"
-        app:layout_constraintVertical_bias="0.9">
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="18sp"
-            android:textColor="#1DA1F3"
-            android:text="Forgot password?"
-            android:onClick="mainClick1"
-            android:layout_marginRight="100dp"/>
-        <Button
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="mainClick"
-            android:text="Login"
-            />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
