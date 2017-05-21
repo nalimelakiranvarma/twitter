@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.rajuk.twitter.R;
 
 public class Main5Activity extends AppCompatActivity {
 
